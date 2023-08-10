@@ -112,7 +112,7 @@ img {
 
 @media (max-width: 1000px) {
   .text-overlay {
-    padding-left: 10px;
+    padding-inline: 50px;
     position: relative;
     left: 0;
   }
@@ -180,6 +180,8 @@ select {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  /* justify-content: space-between; */
+  /* align-items: center; */
 }
 
 .card {
@@ -191,6 +193,8 @@ select {
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
+  /* flex: 1; */
+  /* flex-grow: 1; */
 }
 
 .card .card-img {
