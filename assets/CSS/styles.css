@@ -177,15 +177,13 @@ select {
 
 .item-container {
   background-color: inherit;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  /* justify-content: space-between; */
-  /* align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
 }
 
 .card {
-  width: 235px;
+  width: 100%;
   background-color: var(--bg_default);
   border: 0px solid var(--lines-color);
   border-radius: 10px;
@@ -193,8 +191,6 @@ select {
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
-  /* flex: 1; */
-  /* flex-grow: 1; */
 }
 
 .card .card-img {
