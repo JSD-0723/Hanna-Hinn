@@ -1,0 +1,104 @@
+.content-actions {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  background-color: inherit;
+  box-shadow: 2px 3px 27px -20px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 2px 3px 27px -20px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 3px 27px -20px rgba(0, 0, 0, 1);
+}
+
+input.txt-bar {
+  flex-basis: 70%;
+  flex-grow: 1;
+  padding: 9px 4px 9px 40px;
+  color: var(--body-text);
+  background: var(--bg_default)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat 13px center;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.select-wrap {
+  padding: 0 5px 5px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--lines-color);
+  border-radius: 0px;
+}
+
+.select-wrap:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.select-wrap label {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 2px 8px 0;
+}
+
+select {
+  border: 0px;
+}
+
+.content-title {
+  background-color: inherit;
+  padding: 10px 0px;
+}
+
+.item-container {
+  background-color: inherit;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  width: 100%;
+  background-color: var(--bg_default);
+  border: 0px solid var(--lines-color);
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card .card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.card .card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  display: block;
+}
+
+.card .card-content {
+  padding-inline: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card .card-title {
+  font-weight: 700;
+}
+
+.card .card-caption {
+  font-size: 14px;
+}
+
+.card .card-author {
+  color: gray;
+}
+
+.checked {
+  color: orange;
+}

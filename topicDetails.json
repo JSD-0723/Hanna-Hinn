@@ -1,0 +1,35 @@
+{
+  "category": "Web Development Languages",
+  "title": "HTML",
+  "description": "HTML (Hypertext Markup Language) is the standard markup language for creating web pages and other information that can be displayed in a web browser. It provides a structure for content and defines how it should be displayed on a web page. including text, images, and multimedia, HTML is essential for creating static web pages, and its a foundational technology for the World Wide Web.",
+  "rating": "4",
+  "Author": "Sarah Smith",
+  "image": "/assets/images/html.png",
+  "favorite": "false",
+  "subTopics": [
+    {
+      "topic": "HTML syntax and structure",
+      "checked": "true"
+    },
+    {
+      "topic": "HTML elements and attributes",
+      "checked": "true"
+    },
+    {
+      "topic": "HTML forms and input elements",
+      "checked": "true"
+    },
+    {
+      "topic": "HTML tables and lists",
+      "checked": "true"
+    },
+    {
+      "topic": "HTML multimedia elements (audio, videos, images)",
+      "checked": "true"
+    },
+    {
+      "topic": "HTML accessibility and semantic markup",
+      "checked": "true"
+    }
+  ]
+}

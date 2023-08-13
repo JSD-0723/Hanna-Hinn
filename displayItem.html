@@ -22,27 +22,34 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="/assets/JS/shared.js"></script>
+
+    <!-- CSS Files Attached -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" type="text/css" href="assets/CSS/variables.css" />
-    <link rel="stylesheet" type="text/css" href="assets/CSS/styles.css" />
-  
+    <link rel="stylesheet" type="text/css" href="assets/CSS/common.css" />
   </head>
   <body>
+    <!-- Top Header Component Includes title and 2 icon-buttons -->
     <header>
-      <h2 class="title-text">Web Topics</h2>
-      <!-- <div class="header-right"> -->
-      <button type="button" class="icon-button">
+      <a href="/index.html" class="title-text">Web Topics</a>
+      <button
+        type="button"
+        class="icon-button"
+        id="toggle-theme"
+        onclick="toggleTheme()"
+      >
         <ion-icon name="moon-outline" class="icon"></ion-icon>Dark Mode
       </button>
       <button type="button" class="icon-button">
         <ion-icon name="heart-outline" class="icon"></ion-icon>Favorites
       </button>
-      <!-- </div> -->
     </header>
-    <section class="image-container">
+    <!-- Welcoming Component -->
+    <div class="image-container">
       <img
         class="background-design"
         src="assets/images/welcome-desgin.png"
@@ -52,6 +59,8 @@
         <h1>Welcome to our website!</h1>
         <p>We have a new design that's fresh,modern, and easy to use.</p>
       </div>
-    </section>
+    </div>
+    <!-- Main Content Component -->
+    <main class="container"></main>
   </body>
 </html>
