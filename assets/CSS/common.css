@@ -34,14 +34,18 @@ header {
 }
 
 header .title-text {
-  color: var(--brand-primary);
-  text-decoration: none;
-  text-align: start;
   padding: 10px;
   flex-grow: 1;
   background-color: inherit;
   margin: 0px;
+}
+
+header .title-text a {
   display: block;
+  width: 15%;
+  color: var(--brand-primary);
+  text-decoration: none;
+  text-align: start;
   font-size: 1.5em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
@@ -80,7 +84,7 @@ header .title-text {
 .image-container {
   position: relative;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 3rem;
   background-color: var(--bg_default);
 }
 
@@ -137,10 +141,13 @@ footer ion-icon {
   color: var(--heart-color);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .text-overlay {
     padding-inline: 50px;
     position: relative;
     left: 0;
+  }
+  .image-container {
+    padding-bottom: 0.5em;
   }
 }
