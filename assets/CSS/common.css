@@ -20,9 +20,13 @@ select {
 }
 
 h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 q {
   font-weight: 700;
-  background-color: inherit;
 }
 
 header {
@@ -90,7 +94,6 @@ header .title-text a {
 
 img {
   width: 100%;
-  height: auto;
 }
 
 .text-overlay {
@@ -110,7 +113,6 @@ img {
   margin: 10px 0;
   color: var(--brand-secondary);
   margin-block-end: 0px;
-  font-weight: 700;
   background-color: inherit;
 }
 
@@ -120,10 +122,84 @@ img {
   background-color: inherit;
 }
 
-.container {
-  padding-top: 20px;
+.container,
+#bottom-drawer {
+  padding: 20px;
   padding-inline: 50px;
   margin: 0;
+}
+
+.card {
+  width: 100%;
+  background-color: var(--bg_default);
+  border: 0px solid var(--lines-color);
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card .card-img {
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  background-color: #ffffff;
+}
+.card .card-img img {
+  height: 100%;
+  object-fit: fill;
+  display: block;
+}
+
+.card .card-content {
+  padding-inline: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card .card-title {
+  font-weight: 700;
+}
+
+.card .card-caption {
+  font-size: 14px;
+}
+
+.card .card-author {
+  color: gray;
+}
+
+.checked {
+  color: orange;
+}
+
+#bottom-drawer {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  background-color: var(--bg_default);
+  z-index: 1;
+  box-shadow: -1px -2px 5px -3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -1px -2px 5px -3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px -2px 5px -3px rgba(0, 0, 0, 0.3);
+}
+
+#bottom-drawer .card {
+  width: 150px;
+  height: 150px;
+}
+
+#bottom-drawer .card .card-img {
+  height: 100px;
+}
+
+#drawer-title {
+  margin: 0px;
+  padding-bottom: 10px;
 }
 
 footer {

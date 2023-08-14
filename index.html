@@ -49,7 +49,7 @@
       >
         <ion-icon name="moon-outline" class="icon"></ion-icon>Dark Mode
       </button>
-      <button type="button" class="icon-button">
+      <button type="button" class="icon-button" onclick="toggleFavorite()">
         <ion-icon name="heart-outline" class="icon"></ion-icon>Favorites
       </button>
     </header>
@@ -320,10 +320,25 @@
           </div>
         </a>
       </nav>
-      <div class="bottom-drawer">
-        <h4>My Favorite Topics</h4>
-      </div>
     </main>
+    <div id="bottom-drawer">
+      <h4 class="drawer-title">My Favorite Topics</h4>
+      <div class="item-container">
+        <div class="card">
+          <div class="card-img">
+            <img src="assets/images/react.webp" alt="react.js" />
+          </div>
+          <div class="card-title">React</div>
+          <div class="card-rating">
+            <span class="fa fa-star checked"></span
+            ><span class="fa fa-star checked"></span
+            ><span class="fa fa-star checked"></span
+            ><span class="fa fa-star checked"></span
+            ><span class="fa fa-star"></span>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Footer Component -->
     <footer>
       <h4>Developed with <ion-icon name="heart"></ion-icon> &#169; 2023</h4>
