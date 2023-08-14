@@ -1,0 +1,20 @@
+{
+  "result": [
+    {
+      "title": "React",
+      "rating": 4
+    },
+    {
+      "title": "Cloud Computing",
+      "rating": 4
+    },
+    {
+      "title": "JavaScript",
+      "rating": 4
+    },
+    {
+      "title": "Node.js",
+      "rating": 4
+    }
+  ]
+}
