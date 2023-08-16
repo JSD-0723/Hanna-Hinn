@@ -43,7 +43,6 @@ header {
   overflow: hidden;
   padding-inline: 50px;
   display: flex;
-  justify-content: baseline;
   background-color: var(--bg_default);
 }
 
