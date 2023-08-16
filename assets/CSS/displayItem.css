@@ -3,6 +3,10 @@ h2 {
   color: inherit;
 }
 
+.card {
+  cursor: auto;
+}
+
 .item-info {
   background-color: #262626;
   position: relative;
