@@ -101,7 +101,7 @@ header .title-text a {
 .image-container {
   position: relative;
   width: 100%;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
   background-color: var(--bg_default);
 }
 
