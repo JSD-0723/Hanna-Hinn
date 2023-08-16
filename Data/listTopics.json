@@ -5,275 +5,273 @@
       "title": "HTML",
       "rating": "4",
       "Author": "Sarah Smith",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/html.png"
     },
     {
       "category": "Web Development Languages",
       "title": "CSS",
       "rating": "4",
       "Author": "David Lee",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/CSS.webp"
     },
     {
       "category": "Web Development Languages",
       "title": "JavaScript",
       "rating": "4",
       "Author": "Emily chen",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/javascript.jpg"
     },
     {
       "category": "Frontend Frameworks and Libraries",
       "title": "jQuery",
       "rating": "4",
       "Author": "John Johnson",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/jquery.png"
     },
     {
       "category": "Frontend Frameworks and Libraries",
       "title": "Angular",
       "rating": "4",
       "Author": "Jessica Davis",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/angular.png"
     },
     {
       "category": "Frontend Frameworks and Libraries",
       "title": "React",
       "rating": "4",
       "Author": "Daniel Brown",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/react.webp"
     },
     {
       "category": "Frontend Frameworks and Libraries",
       "title": "Vue.js",
       "rating": "4",
       "Author": "Ava Jones",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/vuejs.jpeg"
     },
     {
       "category": "Backend Frameworks and Libraries",
       "title": "Node.js",
       "rating": "4",
       "Author": "Micheal Kim",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/nodejs.webp"
     },
     {
       "category": "Backend Frameworks and Libraries",
       "title": "Express.js",
       "rating": "4",
       "Author": "Sophia Rodriguez",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/expressjs.webp"
     },
     {
       "category": "Backend Frameworks and Libraries",
       "title": "Ruby on Rails",
       "rating": "3",
       "Author": "William Lee",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/ruby.jpeg"
     },
     {
       "category": "Backend Frameworks and Libraries",
       "title": "Django",
       "rating": "4",
       "Author": "Olivia Martinez",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/django.jpeg"
     },
     {
       "category": "Backend Frameworks and Libraries",
       "title": "Flask",
       "rating": "3",
       "Author": "Ethan Thompson",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/flask.webp"
     },
     {
       "category": "Databases and APIs",
       "title": "SQL",
       "rating": "4",
       "Author": "Madison Davis",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/sql.png"
     },
     {
       "category": "Databases and APIs",
       "title": "NoSQL",
       "rating": "4",
       "Author": "Isabella Wilson",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/nosql.png"
     },
     {
       "category": "Databases and APIs",
       "title": "REST APIs",
       "rating": "3",
       "Author": "Jacob Garcia",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/restapi.jpeg"
     },
     {
       "category": "Databases and APIs",
       "title": "GraphQL",
       "rating": "4",
       "Author": "Mia Brown",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/graphql.png"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "OAuth",
       "rating": "3.5",
       "Author": "Evelyn Nguyen",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/oauth.png"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "JSON",
       "rating": "3.5",
       "Author": "Liam Hernandez",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/json.png"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "AJAX",
       "rating": "3",
       "Author": "Avery Perez",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/ajax.gif"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "WebSockets",
       "rating": "4",
       "Author": "Victoria Kim",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/websockets.png"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Responsive Design",
       "rating": "4",
       "Author": "Ryan Jones",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/responsive.gif"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Accessibility",
       "rating": "4",
       "Author": "Samantha Martin",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/accessibility.png"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "User Experience (UX)",
       "rating": "4",
       "Author": "Luke Davis",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/ux.jpeg"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "User Interface (UI)",
       "rating": "3",
       "Author": "Grace Wilson",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/ui.png"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Design Systems",
       "rating": "4",
       "Author": "Noah Martinez",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/design-systems.jpeg"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Performance Optimization",
       "rating": "3",
       "Author": "Chloe Taylor",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/performance.png"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Cross-Browser Compatibility",
       "rating": "4",
       "Author": "David Lee",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/cross-browser.jpeg"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Search Engine Optimization",
       "rating": "4",
       "Author": "Emily Kim",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/seo.jpeg"
     },
     {
       "category": "Web Development Concepts and Technologies",
-      "title": "Wen Security",
+      "title": "Web Security",
       "rating": "4",
       "Author": "Gabriel Hernandez",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/web-security.jpeg"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Testing and Debugging",
       "rating": "4",
       "Author": "Avery Perez",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/testing.jpeg"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Continuous Integration/Continuous Development",
       "rating": "4",
       "Author": "Madison Davis",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/ci-cd.jpeg"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "DevOps",
       "rating": "4",
       "Author": "Isabella Wilson",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/devops.png"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Cloud Computing",
       "rating": "4",
       "Author": "Jacob Garcia",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/cloud.jpeg"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Docker",
       "rating": "4",
       "Author": "Mia Brown",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/docker.png"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "MicroServices",
       "rating": "4",
       "Author": "Evelyn Nguyen",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/microservices.png"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Progressive Web Apps (PWA)",
       "rating": "3",
       "Author": "Liam Hernandez",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/pwa.png"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Web Accessibility Initiative (WAI)",
       "rating": "3.5",
       "Author": "Evelyn Nguyen",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/wai.jpeg"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Content Management Systems (CMS)",
       "rating": "4",
       "Author": "Victoria Kim",
-      "image": "/assets/images/html.png"
+      "image": "assets/images/cms.png"
     },
     {
       "category": "Web Development Concepts and Technologies",
       "title": "Web Analytics",
       "rating": "4",
       "Author": "Ryan Jones",
-      "image": "/assets/images/html.png"
-    },
-
-    {}
+      "image": "assets/images/analytics.png"
+    }
   ]
 }

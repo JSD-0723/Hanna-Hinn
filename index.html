@@ -24,6 +24,7 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
     <script src="assets/JS/shared.js"></script>
+    <script type="module" src="assets/JS/index.js"></script>
 
     <!-- CSS Files Attached -->
     <link
@@ -94,11 +95,11 @@
       </span>
       <!-- Main Content Title Component -->
       <div class="content-title">
-        <h3><q class="item-amount">24</q> Web Topics Found</h3>
+        <h3><q id="item-amount">0</q> Web Topics Found</h3>
       </div>
       <!-- Main Content Items Component -->
-      <nav class="item-container">
-        <a href="displayItem.html" class="card" title="HTML">
+      <nav class="item-container" id="topic-Container">
+        <!-- <a href="displayItem.html" class="card" title="HTML">
           <div class="card-img">
             <img src="assets/images/html.png" alt="HTML" loading="lazy"/>
           </div>
@@ -114,8 +115,7 @@
             </div>
             <div class="card-author">Author: Sarah Smith</div>
           </div>
-        </a>
-        
+        </a> -->
       </nav>
     </main>
     <div id="bottom-drawer" class="padding-layout">
