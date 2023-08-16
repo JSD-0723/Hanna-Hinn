@@ -15,7 +15,6 @@ const toggleTheme = (event) => {
 // The following function will check will be responsible for toggling the
 // favorite topics by checking showFav variable
 const toggleFavorite = (event) => {
-  console.log(showFav);
   if (showFav) {
     document.getElementById("bottom-drawer").style.display = "none";
   } else {
