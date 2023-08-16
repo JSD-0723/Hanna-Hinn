@@ -4,9 +4,9 @@ import { fetchData } from "./service.js";
 // This function will call the file for now and return the result
 // Once the data is fetched then it calls showCards.
 async function fetchAndShow() {
-  const data = await fetchData("Data/listTopics.json").result;
-  if (data) {
-    showCards(data);
+  const data = await fetchData("Data/listTopics.json");
+  if (data.result) {
+    showCards(data.result);
   }
 }
 
