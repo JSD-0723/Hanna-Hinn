@@ -25,7 +25,8 @@ h3,
 h4,
 h5,
 h6,
-q {
+q,
+strong {
   font-weight: 700;
 }
 
@@ -39,9 +40,12 @@ p {
   text-overflow: ellipsis;
 }
 
+.padding-layout {
+  padding-inline: 10%;
+}
+
 header {
   overflow: hidden;
-  padding-inline: 50px;
   display: flex;
   background-color: var(--bg_default);
 }
@@ -131,11 +135,8 @@ img {
   background-color: inherit;
 }
 
-.container,
 #bottom-drawer {
-  padding: 20px;
-  padding-inline: 50px;
-  margin: 0;
+  padding-bottom: 20px;
 }
 
 .card {
@@ -185,7 +186,7 @@ img {
 }
 
 .checked {
-  color: orange;
+  color: orange !important;
 }
 
 #bottom-drawer {
@@ -236,7 +237,7 @@ footer ion-icon {
   color: var(--heart-color);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .text-overlay {
     padding-inline: 50px;
     position: relative;

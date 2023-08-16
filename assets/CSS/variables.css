@@ -6,6 +6,7 @@
     --lines-color: #dddddd;
     --body-text: #333333;
     --heart-color: #dc143c;
+    --search-icon-url: url("../images/search-icon-light.png");
   }
   
   [data-theme="dark"] {
@@ -16,5 +17,6 @@
     --lines-color: #000000;
     --body-text: #ededed;
     --heart-color: #dc143c;
+    --search-icon-url: url("../images/search-icon-dark.png");
   }
   

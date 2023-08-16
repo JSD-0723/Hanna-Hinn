@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,10 +31,11 @@
     />
     <link rel="stylesheet" type="text/css" href="assets/CSS/variables.css" />
     <link rel="stylesheet" type="text/css" href="assets/CSS/common.css" />
+    <link rel="stylesheet" type="text/css" href="assets/CSS/displayItem.css" />
   </head>
   <body>
     <!-- Top Header Component Includes title and 2 icon-buttons -->
-    <header>
+    <header class="padding-layout">
       <div class="title-text">
         <a href="index.html">Web Topics</a>
       </div>
@@ -46,7 +47,7 @@
       >
         <ion-icon name="moon-outline" class="icon"></ion-icon>Dark Mode
       </button>
-      <button type="button" class="icon-button">
+      <button type="button" class="icon-button" onclick="toggleFavorite()">
         <ion-icon name="heart-outline" class="icon"></ion-icon>Favorites
       </button>
     </header>
@@ -63,10 +64,83 @@
       </div>
     </div>
     <!-- Main Content Component -->
-    <main class="container"></main>
+    <main class="container">
+      <div class="padding-layout item-info">
+        <div class="item-description">
+          <p class="item-caption">Web Development Languages</p>
+          <h2>HTML</h2>
+          <div class="rating">
+            <span class="fa fa-star checked"></span
+            ><span class="fa fa-star checked"></span
+            ><span class="fa fa-star checked"></span
+            ><span class="fa fa-star checked"></span
+            ><span class="fa fa-star"></span>
+          </div>
+          <p>
+            HTML (Hypertext Markup Language) is the standard markup language for
+            creating web pages and other information that can be displayed in a
+            web browser. It provides a structure for content and defines how it
+            should be displayed on a web page, including text, images, and
+            multimedia. HTML is essential for creating static web pages and is a
+            foundational technology for the World Wide Web.
+          </p>
+        </div>
+        <div class="item-actions">
+          <div class="card">
+            <div class="card-img">
+              <img src="assets/images/html.png" alt="Html" loading="lazy" />
+            </div>
+            <div class="card-content">
+              <p><strong>HTML</strong> by <a href="">Sarah Smith</a></p>
+              <div class="card-actions">
+                <p class="card-action-title">Interested about this topic?</p>
+                <button
+                  type="button"
+                  class="icon-button card-action-btn"
+                  id="add-Favorites"
+                >
+                  Add to Favorites
+                  <ion-icon name="heart-outline" class="icon"></ion-icon>
+                </button>
+                <p class="card-action-caption">Unlimited Credits</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="padding-layout">
+        <ul class="item-list">
+          <h1>HTML Sub Topics</h1>
+          <li>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>HTML syntax and
+            structure
+          </li>
+          <li>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>HTML elements
+            and attributes
+          </li>
+          <li>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>HTML forms and
+            input elements
+          </li>
+          <li>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>HTML tables and
+            lists
+          </li>
+          <li>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>HTML multimedia
+            elements (audio, video, images)
+          </li>
+          <li>
+            <ion-icon name="checkmark-circle-outline"></ion-icon>HTML
+            accessibility and semantic markup
+          </li>
+        </ul>
+      </div>
+    </main>
 
-    <div id="bottom-drawer">
+    <div id="bottom-drawer" class="padding-layout">
       <h4 class="drawer-title">My Favorite Topics</h4>
       <div class="item-container">
         <div class="card">
@@ -84,7 +158,9 @@
         </div>
       </div>
     </div>
-
+    <!-- Footer Component -->
+    <footer>
+      <h4>Developed with <ion-icon name="heart"></ion-icon> &#169; 2023</h4>
+    </footer>
   </body>
-  
 </html>
