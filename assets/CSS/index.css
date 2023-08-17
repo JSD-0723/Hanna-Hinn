@@ -8,11 +8,8 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: baseline;
   background-color: inherit;
   box-shadow: 2px 3px 27px -20px rgba(0, 0, 0, 1);
-  -webkit-box-shadow: 2px 3px 27px -20px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 2px 3px 27px -20px rgba(0, 0, 0, 1);
 }
 
 input.txt-bar {
