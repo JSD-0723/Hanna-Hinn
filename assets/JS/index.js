@@ -2,11 +2,11 @@
 import { fetchData } from "./service.js";
 
 // This function will call the file for now and return the result
-// Once the data is fetched then it calls showCards.
+// Once the data is fetched then it calls showTopicCards.
 async function fetchAndShow() {
   const data = await fetchData("Data/listTopics.json");
   if (data.result) {
-    showCards(data.result);
+    showTopicCards(data.result);
   }
 }
 
@@ -14,7 +14,7 @@ fetchAndShow();
 
 // params : topics [array]
 // output: Display count and Cards in the index.html
-function showCards(topics) {
+function showTopicCards(topics) {
   // container that will save the cards in it
   let container = ``;
   // Variable to save the number of topics fetched
@@ -53,3 +53,4 @@ function showCards(topics) {
   document.getElementById("topic-Container").innerHTML = container;
   document.getElementById("item-amount").innerHTML = count;
 }
+

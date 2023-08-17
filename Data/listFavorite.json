@@ -2,19 +2,23 @@
   "result": [
     {
       "title": "React",
-      "rating": 4
+      "rating": "4",
+      "image": "assets/images/react.webp"
     },
     {
       "title": "Cloud Computing",
-      "rating": 4
+      "rating": "4",
+      "image": "assets/images/cloud.jpeg"
     },
     {
       "title": "JavaScript",
-      "rating": 4
+      "rating": "4",
+      "image": "assets/images/javascript.jpg"
     },
     {
       "title": "Node.js",
-      "rating": 4
+      "rating": "4",
+      "image": "assets/images/nodejs.webp"
     }
   ]
 }

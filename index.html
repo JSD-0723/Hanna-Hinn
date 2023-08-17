@@ -24,7 +24,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <script src="assets/JS/shared.js"></script>
+    <script type="module" src="assets/JS/shared.js"></script>
     <script type="module" src="assets/JS/index.js"></script>
 
     <!-- CSS Files Attached -->
@@ -47,11 +47,14 @@
         type="button"
         class="icon-button"
         id="toggle-theme"
-        onclick="toggleTheme()"
       >
         <ion-icon name="moon-outline" class="icon"></ion-icon>Dark Mode
       </button>
-      <button type="button" class="icon-button" onclick="toggleFavorite()">
+      <button
+        type="button"
+        class="icon-button"
+        id="toggle-favorite"
+      >
         <ion-icon name="heart-outline" class="icon"></ion-icon>Favorites
       </button>
     </header>
@@ -121,8 +124,8 @@
     </main>
     <div id="bottom-drawer" class="padding-layout" style="display: none">
       <h4 class="drawer-title">My Favorite Topics</h4>
-      <div class="item-container">
-        <div class="card">
+      <div class="item-container" id="favoriteTopics">
+        <!-- <div class="card">
           <div class="card-img">
             <img src="assets/images/react.webp" alt="react.js" loading="lazy" />
           </div>
@@ -134,7 +137,7 @@
             ><span class="fa fa-star checked"></span
             ><span class="fa fa-star"></span>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <!-- Footer Component -->
