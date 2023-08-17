@@ -43,6 +43,26 @@ function showTopicCards(topics) {
           <div class="card-author">Author: ${topic.Author}</div>
         </div>
       </a>`;
+    /**
+     *  card ex: <!-- <a href="displayItem.html" class="card" title="HTML">
+          <div class="card-img">
+            <img src="assets/images/html.png" alt="HTML" loading="lazy"/>
+          </div>
+          <div class="card-content">
+            <div class="card-caption">Web Development Languages</div>
+            <div class="card-title">HTML</div>
+            <div class="card-rating">
+              <span class="fa fa-star checked"></span
+              ><span class="fa fa-star checked"></span
+              ><span class="fa fa-star checked"></span
+              ><span class="fa fa-star checked"></span
+              ><span class="fa fa-star checked"></span>
+            </div>
+            <div class="card-author">Author: Sarah Smith</div>
+          </div>
+        </a> -->
+     * 
+     */
     container += card;
     count += 1;
   }
@@ -53,4 +73,3 @@ function showTopicCards(topics) {
   document.getElementById("topic-Container").innerHTML = container;
   document.getElementById("item-amount").innerHTML = count;
 }
-

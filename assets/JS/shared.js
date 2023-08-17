@@ -60,6 +60,21 @@ function buildFavoriteCards(favoriteTopicsList) {
     card += `</div>
   </div>
     `;
+    /**
+     *  card ex: <!-- <div class="card">
+          <div class="card-img">
+            <img src="assets/images/react.webp" alt="react.js" loading="lazy" />
+          </div>
+          <div class="card-title">React</div>
+          <div class="card-rating">
+            <span class="fa fa-star checked"></span
+            ><span class="fa fa-star checked"></span
+            ><span class="fa fa-star checked"></span
+            ><span class="fa fa-star checked"></span
+            ><span class="fa fa-star"></span>
+          </div>
+        </div> -->
+     */
     container += card;
   }
   // Reflecting change to the pages
