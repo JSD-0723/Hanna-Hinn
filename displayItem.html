@@ -37,7 +37,7 @@
   </head>
   <body>
     <!-- Top Header Component Includes title and 2 icon-buttons -->
-    <header class="padding-layout">
+    <header class="container">
       <div class="title-text">
         <a href="index.html">Web Topics</a>
       </div>
@@ -50,20 +50,21 @@
     </header>
     <!-- Welcoming Component -->
     <div class="image-container">
-      <img
-        class="background-design"
-        src="assets/images/welcome-desgin.png"
-        alt="background Image"
-      />
+      <div class="welcome-banner">
+        <div class="green-triangle"></div>
+        <div class="blue-triangle"></div>
+      </div>
       <div class="text-overlay">
-        <h1>Welcome to our website!</h1>
-        <p>We have a new design that's fresh,modern, and easy to use.</p>
+        <div>
+          <h1>Welcome to our website!</h1>
+          <h2>We have a new design that's fresh,modern, and easy to use.</h2>
+        </div>
       </div>
     </div>
     <!-- Main Content Component -->
-    <main class="container">
+    <main class="main-container">
       <!-- Item Information Component -->
-      <div class="padding-layout item-info">
+      <div class="container item-info">
         <div class="item-description">
           <p class="item-caption">Web Development Languages</p>
           <h2>HTML</h2>
@@ -108,7 +109,7 @@
         </div>
       </div>
       <!-- Item Sub-Topics List Component -->
-      <div class="padding-layout">
+      <div class="container">
         <ul class="item-list">
           <h1>HTML Sub Topics</h1>
           <li>
@@ -140,7 +141,7 @@
     </main>
 
     <!-- Bottom Drawer Component -->
-    <div id="bottom-drawer" class="padding-layout">
+    <div id="bottom-drawer" class="container">
       <h4 class="drawer-title">My Favorite Topics</h4>
       <!-- Bottom Drawer Items Container-->
       <div class="item-container" id="favoriteTopics"></div>

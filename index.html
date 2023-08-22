@@ -38,7 +38,7 @@
   </head>
   <body>
     <!-- Top Header Component Includes title and 2 icon-buttons -->
-    <header class="padding-layout">
+    <header class="container">
       <div class="title-text">
         <a href="index.html">Web Topics</a>
       </div>
@@ -52,25 +52,27 @@
     </header>
     <!-- Welcoming Component -->
     <div class="image-container">
-      <img
-        class="background-design"
-        src="assets/images/welcome-desgin.png"
-        alt="Background Design Image"
-      />
+      <div class="welcome-banner">
+        <div class="green-triangle"></div>
+        <div class="blue-triangle"></div>
+      </div>
       <div class="text-overlay">
-        <h1>Welcome to our website!</h1>
-        <p>We have a new design that's fresh,modern, and easy to use.</p>
+        <div>
+          <h1>Welcome to our website!</h1>
+          <h2>We have a new design that's fresh,modern, and easy to use.</h2>
+        </div>
       </div>
     </div>
     <!-- Main Content Component -->
-    <main class="padding-layout container">
+    <main class="container main-container">
       <!-- Main Content Actions Component -->
       <div class="content-actions">
-        <input
-          class="txt-bar"
-          type="search"
-          placeholder="Search the website..."
-        />
+        <div class="icon-txt-bar">
+          <ion-icon name="search" class="icon"></ion-icon>
+
+          
+          <input type="text" placeholder="Search the website..." />
+        </div>
         <div class="select-wrap">
           <label>Sort by:</label>
           <select name="sort">
@@ -97,7 +99,7 @@
       <nav class="item-container" id="topic-Container"></nav>
     </main>
     <!-- Bottom Drawer Component -->
-    <div id="bottom-drawer" class="padding-layout" style="display: none">
+    <div id="bottom-drawer" class="container" style="display: none">
       <h4 class="drawer-title">My Favorite Topics</h4>
       <!-- Bottom Drawer Items Container-->
       <div class="item-container" id="favoriteTopics"></div>
