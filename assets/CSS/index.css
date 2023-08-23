@@ -34,7 +34,7 @@
 }
 
 .icon-txt-bar .icon {
-  padding-left: 10px;
+  padding: 0px 10px ;
   cursor: pointer;
   font-weight: 200;
 }
