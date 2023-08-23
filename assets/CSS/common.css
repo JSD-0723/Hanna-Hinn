@@ -7,7 +7,6 @@
 }
 
 body {
-  margin: 0px;
   background-color: var(--bg_body);
 }
 
@@ -43,7 +42,6 @@ header {
   background-color: var(--bg_default);
   gap: 5px;
   box-shadow: 0px 0px 20px -6px var(--body-text);
-  z-index: 1;
 }
 
 header .title-text {
@@ -62,8 +60,6 @@ header .title-text a {
 }
 
 .icon-button {
-  width: 9.5%;
-  font-size: 16px;
   padding: 5px 10px;
   font-weight: 700;
   display: flex;
@@ -71,7 +67,6 @@ header .title-text a {
   align-items: center;
   overflow: hidden;
   cursor: pointer;
-  text-decoration: none;
 }
 
 .icon-button:hover {
@@ -142,11 +137,9 @@ header .title-text a {
 
 .card {
   width: 240px;
-  /* height: 280px; */
   background-color: var(--bg_default);
   border: 1px solid rgba(0.86, 0.86, 0.86, 0.08);
   border-radius: 8px;
-  /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.02); */
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
@@ -226,7 +219,7 @@ header .title-text a {
   width: 125px;
   height: 120px;
   border: none;
-  box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.1);
 }
 
 #bottom-drawer .card .card-img {
