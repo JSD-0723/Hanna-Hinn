@@ -52,11 +52,11 @@ function showTopicCards(topics) {
             <div class="card-caption">Web Development Languages</div>
             <div class="card-title">HTML</div>
             <div class="card-rating">
-              <span class="fa fa-star checked"></span
-              ><span class="fa fa-star checked"></span
-              ><span class="fa fa-star checked"></span
-              ><span class="fa fa-star checked"></span
-              ><span class="fa fa-star checked"></span>
+              <ion-icon name="star" class="checked"></ion-icon>
+              <ion-icon name="star" class="checked"></ion-icon>
+              <ion-icon name="star" class="checked"></ion-icon>
+              <ion-icon name="star" class="checked"></ion-icon>
+              <ion-icon name="star" class="checked"></ion-icon>
             </div>
             <div class="card-author">Author: Sarah Smith</div>
           </div>

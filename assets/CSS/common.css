@@ -32,7 +32,6 @@ strong {
   font-weight: 700;
 }
 
-
 .container {
   padding-inline: 4.5%;
 }
@@ -145,8 +144,7 @@ header .title-text a {
   width: 240px;
   /* height: 280px; */
   background-color: var(--bg_default);
-  border: 1px solid
-    rgba(0.86, 0.86, 0.86, 0.08);
+  border: 1px solid rgba(0.86, 0.86, 0.86, 0.08);
   border-radius: 8px;
   /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.02); */
   overflow: hidden;
@@ -214,24 +212,37 @@ header .title-text a {
   background-color: var(--bg_default);
   z-index: 1;
   box-shadow: -1px -2px 5px -3px rgba(0, 0, 0, 0.3);
+  height: 25%;
+  padding-top: 20px;
 }
 
 #bottom-drawer .item-container {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   flex-wrap: wrap;
 }
 
 #bottom-drawer .card {
-  width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 120px;
+  border: none;
+  box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
 }
 
 #bottom-drawer .card .card-img {
-  height: 100px;
+  height: 65px;
+}
+
+#bottom-drawer .card .card-content {
+  padding: 5px 10px;
+}
+
+#bottom-drawer .card .card-rating {
+  padding: 0px;
 }
 
 #drawer-title {
+  font-weight: 700;
   margin: 0px;
   padding-bottom: 10px;
 }
@@ -286,5 +297,4 @@ footer ion-icon {
   .card {
     width: 100%;
   }
-
 }

@@ -47,17 +47,19 @@ function buildFavoriteCards(favoriteTopicsList) {
     <div class="card-img">
       <img src="${topic.image}" alt="${topic.title}" loading="lazy" />
     </div>
+    <div class="card-content">
     <div class="card-title">${topic.title}</div>
     <div class="card-rating">`;
     // loop for making the rating
     for (let i = 1; i <= 5; i++) {
       if (i <= topic.rating) {
-        card += `<span class="fa fa-star checked"></span>`;
+        card += `<ion-icon name="star" class="checked"></ion-icon>`;
       } else {
-        card += `<span class="fa fa-star"></span>`;
+        card += `<ion-icon name="star-outline" class="checked"></ion-icon>`;
       }
     }
     card += `</div>
+    </div>
   </div>
     `;
     /**
@@ -67,11 +69,11 @@ function buildFavoriteCards(favoriteTopicsList) {
           </div>
           <div class="card-title">React</div>
           <div class="card-rating">
-            <span class="fa fa-star checked"></span
-            ><span class="fa fa-star checked"></span
-            ><span class="fa fa-star checked"></span
-            ><span class="fa fa-star checked"></span
-            ><span class="fa fa-star"></span>
+            <ion-icon name="star" class="checked"></ion-icon>
+            <ion-icon name="star" class="checked"></ion-icon>
+            <ion-icon name="star" class="checked"></ion-icon>
+            <ion-icon name="star" class="checked"></ion-icon>
+            <ion-icon name="star" class="checked"></ion-icon>
           </div>
         </div> -->
      */
