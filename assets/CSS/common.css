@@ -32,10 +32,6 @@ strong {
   font-weight: 700;
 }
 
-p {
-  text-wrap: nowrap;
-  text-overflow: ellipsis;
-}
 
 .container {
   padding-inline: 4.5%;

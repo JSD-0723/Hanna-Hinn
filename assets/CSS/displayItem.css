@@ -3,40 +3,64 @@ h2 {
   color: inherit;
 }
 
-.card {
-  cursor: auto;
+.details-container {
+  padding-inline-start: 19%;
 }
 
 .item-info {
-  background-color: #262626;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+  background-color: #383434;
+  height: 280px;
 }
 
-.item-description {
+.item-details {
   color: #ededed;
-  flex-basis: 50%;
+  width: 50%;
   height: 100%;
+  padding: 30px 0px;
 }
 
 .item-caption {
   color: var(--brand-secondary);
 }
 
+.rating {
+  display: flex;
+}
+
+.item-description {
+  padding-top: 20px;
+}
+
 .item-actions {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  right: 10%;
-  top: 20px;
+  box-shadow: rgba(99, 99, 99, 0.15) 0px 2px 8px 0px;
+  z-index: 10;
+  top: 220px;
+  right: 16%;
 }
 
 .item-actions .card {
+  cursor: auto;
   border-radius: 0px;
   background-color: #fff;
+  width: 100%;
+  height: 415px;
+}
+
+.item-actions .card .card-img {
+  height: 200px;
 }
 
 .item-actions .card .card-content {
   padding: 20px;
+  gap: 10px;
+}
+
+.item-actions .card .card-content a {
+  color: #0000ee;
 }
 
 .item-actions .card * {
@@ -44,8 +68,10 @@ h2 {
 }
 
 .item-actions .card .card-actions {
+  gap: 10px;
+  height: 100%;
   border: 1px solid #dddddd;
-  padding: 0 20px;
+  padding: 10px 20px 5px;
   display: flex;
   flex-direction: column;
   color: inherit;
@@ -54,14 +80,16 @@ h2 {
 .item-actions .card .card-actions .card-action-title {
   margin: 0px;
   padding-top: 10px;
+  font-weight: 700;
 }
 
 .item-actions .card .card-actions .card-action-btn {
   width: 100%;
+  height: 55px;
   font-weight: 400;
   border-radius: 0;
   justify-content: center;
-  font-size: large;
+  font-size: 20px;
   color: #fff;
   border: 1px solid #dddddd;
   background-color: var(--brand-secondary);
@@ -79,47 +107,46 @@ h2 {
   padding-bottom: 10px;
 }
 
-.item-list {
+.sub-items {
+  width: 40.8%;
+  margin-inline-start: 19%;
   margin-top: 20px;
-  width: 50%;
   background-color: var(--bg_default);
+  border-radius: 0.3rem;
   border: 1px solid var(--lines-color);
-  border-radius: 5px;
-  list-style-type: none;
-  padding: 0;
 }
 
-.item-list h1 {
-  padding-left: 10px;
+.list-title {
+  font-size: 24px;
+  padding: 15px 25px;
+}
+
+.item-list {
+  padding: 0px;
+  list-style-type: none;
 }
 
 .item-list li {
-  width: 100%;
-  padding: 10px;
+  font-size: 17px;
+  border-top: 1px solid var(--lines-color);
+  display: flex;
+  gap: 10px;
+  padding: 15px;
   font-weight: 700;
-  border: 1px solid var(--lines-color);
+  justify-content: baseline;
 }
 
 .item-list ion-icon {
+  font-size: 25px;
   color: var(--brand-secondary);
-  padding-right: 10px;
+  padding: 0px 10px;
 }
 
 @media (max-width: 1000px) {
-  .item-info {
-    flex-wrap: wrap;
-  }
-  .item-description {
-    flex-grow: 1;
-  }
   .item-actions {
     position: relative;
     right: 0;
     top: 0;
     padding-bottom: 10px;
-  }
-
-  .item-list {
-    width: 100%;
   }
 }
