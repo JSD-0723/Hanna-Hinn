@@ -28,7 +28,7 @@ function showTopicCards(topics) {
         </div>
         <div class="card-content">
           <div class="card-caption">${topic.category}</div>
-          <div class="card-title">${topic.title}</div>
+          <h1 class="card-title">${topic.title}</h1>
           <div class="card-rating">`;
     // loop for making the rating
     for (let i = 1; i <= 5; i++) {

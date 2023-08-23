@@ -144,9 +144,18 @@ h2 {
 
 @media (max-width: 1000px) {
   .item-actions {
+    padding-inline-start: 30px;
     position: relative;
     right: 0;
     top: 0;
     padding-bottom: 10px;
+  }
+
+  .item-info {
+    height: 100%;
+  }
+
+  .sub-items {
+    width: 50%;
   }
 }
