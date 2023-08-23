@@ -18,6 +18,7 @@ select {
   border: 1px solid var(--lines-color);
   border-radius: 5px;
   background-color: var(--bg_default);
+  font-size: 15px;
 }
 
 h1,
@@ -51,15 +52,14 @@ header {
 }
 
 header .title-text {
+  padding-top: 5px;
   flex-grow: 1;
 }
 
 header .title-text a {
   font-weight: 700;
-  width: 15%;
   color: var(--brand-primary);
   text-decoration: none;
-  height: 100%;
 }
 
 .header-right {
@@ -71,7 +71,6 @@ header .title-text a {
   font-size: 16px;
   padding: 5px 10px;
   font-weight: 700;
-  cursor: pointer;
   display: flex;
   gap: 5px;
   align-items: center;
@@ -147,53 +146,67 @@ header .title-text a {
 }
 
 .card {
-  width: 100%;
-  height: 100%;
+  width: 240px;
+  /* height: 280px; */
   background-color: var(--bg_default);
-  border: 0px solid var(--lines-color);
-  border-radius: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid
+    rgba(0.86, 0.86, 0.86, 0.08);
+  border-radius: 8px;
+  /* box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.02); */
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
 }
 
 .card .card-img {
-  height: 200px;
-  object-fit: cover;
+  width: 100%;
+  height: 135px;
   display: block;
   background-color: #ffffff;
 }
 .card .card-img img {
+  width: 100%;
   height: 100%;
   object-fit: fill;
   display: block;
 }
 
 .card .card-content {
+  padding: 15px;
   padding-inline: 15px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .card .card-title {
+  font-size: 15px;
   font-weight: 700;
+  overflow: inherit;
+  text-overflow: inherit;
 }
 
 .card .card-caption {
-  font-size: 14px;
+  font-size: 12.5px;
+  font-weight: 700;
+  overflow: inherit;
+  text-overflow: inherit;
 }
 
 .card .card-rating {
-  padding: 10px 0px;
+  padding-top: 30px;
 }
 
 .card .card-author {
+  padding-top: 10px;
   color: gray;
+  font-size: 13px;
 }
 
 .checked {
-  color: orange !important;
+  color: #e49c24 !important;
 }
 
 #bottom-drawer {
@@ -228,10 +241,12 @@ header .title-text a {
 }
 
 footer {
-  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 16px;
 }
 
 footer h4 {
@@ -239,6 +254,9 @@ footer h4 {
 }
 
 footer ion-icon {
+  font-size: 25px;
+  position: relative;
+  top: 6px;
   color: var(--heart-color);
 }
 
@@ -268,4 +286,9 @@ footer ion-icon {
   .text-overlay div h2 {
     font-size: 13.8px;
   }
+
+  .card {
+    width: 100%;
+  }
+
 }

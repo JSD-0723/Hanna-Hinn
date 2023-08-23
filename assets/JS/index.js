@@ -33,9 +33,9 @@ function showTopicCards(topics) {
     // loop for making the rating
     for (let i = 1; i <= 5; i++) {
       if (i <= topic.rating) {
-        card += `<span class="fa fa-star checked"></span>`;
+        card += `<ion-icon name="star" class="checked"></ion-icon>`;
       } else {
-        card += `<span class="fa fa-star"></span>`;
+        card += `<ion-icon name="star-outline" class="checked"></ion-icon>`;
       }
     }
 
@@ -71,5 +71,7 @@ function showTopicCards(topics) {
   // Adding Cards to topic-container
   // Displaying the item-amount
   document.getElementById("topic-Container").innerHTML = container;
-  document.getElementById("item-amount").innerHTML = count;
+  document.getElementById(
+    "item-amount"
+  ).innerHTML = `"${count}" Web Topics Found`;
 }
