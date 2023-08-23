@@ -136,7 +136,7 @@ header .title-text a {
 }
 
 .card {
-  width: 240px;
+  /* width: 240px; */
   background-color: var(--bg_default);
   border: 1px solid rgba(0.86, 0.86, 0.86, 0.08);
   border-radius: 8px;
@@ -210,7 +210,7 @@ header .title-text a {
 #bottom-drawer .item-container {
   display: flex;
   gap: 15px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 #bottom-drawer .card {
